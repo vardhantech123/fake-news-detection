@@ -19,19 +19,6 @@ Misinformation damages public trust and can cause real-world harm. This project 
 **Setup:** download the dataset and place `Fake.csv` and `True.csv` inside `data/`.
 `data/sample_news.csv` is a tiny **synthetic** file included only so the notebook can be smoke-tested without the download. **Do not report results from it.**
 
-## Repository structure
-```
-├── README.md
-├── requirements.txt
-├── data/
-│   └── sample_news.csv            # synthetic smoke-test data (put Fake.csv / True.csv here)
-├── notebooks/
-│   └── Fake_News_Detection.ipynb  # full workflow
-├── reports/
-│   └── Project_Report.md          # project report (fill in with your results)
-├── images/                        # figures saved by the notebook
-└── models/                        # saved model (generated)
-```
 
 ## Workflow
 Data → Statistics → EDA → Preprocessing → Feature Engineering → Modeling → Evaluation → Insights → Recommendations
